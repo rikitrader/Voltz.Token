@@ -6,11 +6,11 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract MyTokenUpgradeable is Initializable, ERC20Upgradeable, OwnableUpgradeable {
-    // constructor() ERC20("MyToken", "MY") {
+    // constructor() ERC20("VOLTZ", "VLTZ") {
     // }
 
     function initialize() external initializer {
-        __ERC20_init("MyToken", "MY");
+        __ERC20_init("VOLTZ", "VLTZ");
         __Ownable_init();
     }
 
