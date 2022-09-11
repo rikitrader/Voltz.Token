@@ -1,2 +1,2 @@
 # voltz
-Voltz Network
+Voltz Network Design
